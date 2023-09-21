@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url(Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.sidebar {
+    flex: 1 1 33%;
+    background-image: url("leaf-plant.jpg");
+    background-size: cover;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+    background-color: rgba(0, 0, 0, .325);
+    font-family: 'Norse Bold';
+    font-size: 70px;
+    color: white;
+}
+
+.statement {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.top {
+    margin-top: 80px;
+}
+
+.center {
+    margin-top: 20px;
+}
+
+.logo {
+    height: 90px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 66%;
+    padding: 30px;
+}
+
+input {
+    display: flex;
+}
+
+#registration-form {
+    display: flex;
+    font-family:'Courier New', Courier, monospace;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.column {
+    min-width: calc(50% - 10px);
+}
